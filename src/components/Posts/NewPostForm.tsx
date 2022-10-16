@@ -14,7 +14,7 @@ import { IoDocumentText, IoImageOutline } from "react-icons/io5";
 import TabItem from "./TabItem";
 import TextInputs from "./PostForm/TextInputs";
 import ImageUpload from "./PostForm/ImageUpload";
-import { Post } from "../../atoms/postsAtom";
+import { Post, postState } from "../../atoms/postsAtom";
 import { User } from "firebase/auth";
 import { useRouter } from "next/router";
 import {
